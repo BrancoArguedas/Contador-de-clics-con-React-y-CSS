@@ -10,19 +10,19 @@ function App() {
 
   const manejarClic = () =>{
     setNumClics(numClics + 1);
-  }
+  };
 
   const reiniciarContador = () => {
     setNumClics(0);
-  }
-  
+  };
+
   return (
     <div className="App">
-      <div className='freecodecamp-logo-contenedor'>
+      <div className='logo-contenedor'>
         <img
-          className='freecodecamp-logo'
+          className='logo'
           src={ Logo }
-          alt='Logo de freeCodeCamp'
+          alt='Logo'
         />
       </div>
       <div className='contenedor-principal'>
